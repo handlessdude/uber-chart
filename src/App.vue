@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
-import { CONSTANTS, drawLine, toDrawablePoint, type Point } from '@/utils/Drawings';
+import { CONSTANTS, drawLine, type Point } from '@/utils/Drawings';
 
 const myFuncs = [
   (x: number) => x * x,

@@ -16,8 +16,6 @@ export function drawLine(p1: Point, p2: Point, color: string, lineWidth: number,
     ctx.restore();
 }
 
-export const toDrawablePoint = (p: Point, canv: HTMLCanvasElement) => ({ x: canv.width / 2 + p.x, y: canv.height / 2 - p.y })
-
 export const CONSTANTS = {
     WINDOW_SIZE: 720
 }
